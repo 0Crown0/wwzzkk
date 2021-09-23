@@ -1,0 +1,33 @@
+1.Code writing specifications
+1.1 Delete all useless code
+1.2 Code must be commented. The number of comments for a class must not be less than 20% of the code
+1.3 You are advised to follow the 30-second rule. If another programmer can't figure out what your function is doing, how it's doing it, and why it's doing it in thirty seconds, your code is difficult to maintain and needs to be improved.
+1.4 The code length of a function is not allowed to exceed 100 lines. Functions that exceed 100 lines are recommended to be split without breaking atomicity.
+1.5 Variables should be defined in the header set of a method or class
+1.6 Make sure one line of code does one thing
+1.7 Use parentheses to control the order of operators in order to avoid using Java's default operator precedence order.
+1.8 Code Formatting: Format the code before submitting it.
+1.9 Interface cannot be declared without methods or variables
+2. Naming conventions
+2.1 All identifiers shall be named with meaningful English words or abbreviations, and abbreviations and English words shall be included in the abbreviated vocabulary of the project. Do not use Arabic numerals and pinyin for naming.
+2.2 Class name: Capitalize the first letter of each word.
+2.3 Method name: Use lowercase letters and uppercase letters for other words.
+2.4 Global variable and constant names require all uppercase letters.
+2.5 Parameter names are basically the same as local variables. The difference is that parameter names need to be added with articles A, an or end with s.
+3. Comment specifications
+3.1 Notes for Attention:
+★ Comments should be clearly expressed in Chinese to make the program look clearer and easier to understand
+★ Comments should be as concise as possible and avoid decorative ones.
+★ Comments should not only explain what to do, but also why you are doing it. It is best to write comments indicating what to do before coding.
+3.2 Class annotations
+★ The purpose of the class. Include introductions of interest to others.
+★ Known bugs, of course, it is best to modify all the errors, but sometimes there may be no way to modify, or there is no time to modify.
+★ Develop and maintain a history list of the class, recording the author, date, and content of each modification.
+★ List the various stable states of the class, and explain how the state of the class changes by calling a member function (optional).
+★ Synchronization problem (Optional)
+★ The main algorithm must be explained, the main process must be given guidance
+Standard format:
+If you are modifying an existing class, you need to attach the change history to each change in the following format:
+// Modified by + Modified date
+// Modify the description example:
+/ / li si 2010/07/02
